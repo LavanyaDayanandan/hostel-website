@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.virtual-tour a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #d32f2f;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.banner {
+    background: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: fill;
+    border-radius: 10px; 
+}
+
+.hostel-info {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+    background-color: #003366;
+    padding: 15px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    background-color: #00509e;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+aside ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+.content-area {
+    width: 75%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid gray;
+}

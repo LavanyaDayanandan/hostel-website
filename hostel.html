@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIE North College - Hostel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="College Logo">
+                <div class="college-name">
+                    <h1>The National Institute of Engineering [North] Hostel</h1>
+                    <p>An Autonomous Institution<br>Affiliated to VTU, Belagavi</p>
+                </div>
+            </div>
+            <div class="virtual-tour">
+                <a href="https://www.youtube.com/example-video" target="_blank">Hostel Tour</a>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Room Availability</a></li>
+            <li><a href="#">Visitor Registration</a></li>
+            <li><a href="#">Complaint & Feedback</a></li>
+            <li><a href="#">Smart Notices</a></li>
+            <li><a href="#">Student Zone</a></li>
+            <li><a href="#">Faculty Zone</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="banner">
+                <img src="./images/nieit.jpg" alt="College Campus">
+        </section>
+        
+        <section class="hostel-info">
+            <aside>
+                <ul>
+                    <li><a href="#" onclick="showContent('hostel',event);return false">The Hostel</a></li>
+                    <li><a href="#" onclick="showContent('admission',event);return false">Admission Procedure</a></li>
+                    <li><a href="#" onclick="showContent('facilities',event);return false">Facilities</a></li>
+                    <li><a href="#" onclick="showContent('notices',event);return false">Notice and Circulars</a></li>
+                    <li><a href="#" onclick="showContent('fee',event);return false">Fee Structure</a></li>
+                    <li><a href="#" onclick="showContent('mess',event);return false">Mess Procedures</a></li>
+                    <li><a href="#" onclick="showContent('rules',event);return false">General Rules and Conditions</a></li>
+                    <li><a href="#" onclick="showContent('gb',event);return false">Girls and Boys Hostel</a></li>
+                </ul>
+            </aside>
+            
+            <div class="content-area" id="content-area">
+                <h3>Welcome to NIE Hostel</h3>
+                <p>Select an option from the sidebar to view details.</p>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>The National Institute of Engineering[North]</p>
+                <p>Phone: (011) 27607706</p>
+                <p>Email: principal@NIE.du.ac.in</p>
+                <p>Website: <a href="http://www.nie.du.ac.in">www.nie.du.ac.in</a></p>
+            </div>
+            <p class="copyright">© All Rights Reserved. Designed by NIE College</p>
+        </footer>
+    </main>
+</body>
+</html>
