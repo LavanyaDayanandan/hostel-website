@@ -28,9 +28,12 @@ function showContent(section, event) {
         contentArea.style.alignItems = "center"; // Centers horizontally
         contentArea.style.justifyContent = "center";
     }
-
+    
     // Prevent scrolling to the top
     window.scrollTo({ top: window.scrollY, behavior: "instant" });
 }
 
 
+window.addEventListener("DOMContentLoaded", function() {
+    showContent('hostel');
+});
